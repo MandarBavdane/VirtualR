@@ -3,7 +3,7 @@ import { resourcesLinks, platformLinks, communityLinks } from "../constants"
 
 const Footer = () => {
   return (
-    <footer className="flex justify-around mt-20 border-t py-10 border-neutral-700">
+    <footer className="flex justify-between mt-20 border-t py-10 border-neutral-700">
         <div className="gap-4"> {/*grid grid-cols-2 lg:grid-cols-3  (not working) */}
             <div>
                 <h3 className="text-md font-semibold mb-4">Resources</h3>
